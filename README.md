@@ -2,9 +2,9 @@
 
 ![Crafter block](src/main/resources/assets/bettercrafter/icon.png)
 
-[![Static Badge](https://img.shields.io/badge/Version-1.0.0--1.21.3-green)](CHANGELOG.md)
+[![Static Badge](https://img.shields.io/badge/Version-1.0.0--1.21.4-green)](CHANGELOG.md)
 
-This mod will improve the crafter block.
+A small, simple but effective mod that improves the use of Crafter block. Forked from [BetterCrafter](https://github.com/Fern-Aerell/BetterCrafter)
 
 ## Required
 - Fabric API (If your use Fabric Loader)

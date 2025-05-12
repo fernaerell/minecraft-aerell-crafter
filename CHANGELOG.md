@@ -1,4 +1,8 @@
-# 1.0.0-1.21.3 (Latest)
+# 1.0.0-1.21.4 (Latest)
+
+Update for Minecraft 1.21.4 and Fabric 0.16.13
+
+# 1.0.0-1.21.3 
 
 Update for Fabric Minecraft 1.21.3
 
