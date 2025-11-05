@@ -1,6 +1,6 @@
 # Better Crafter
 
-![Crafter block](src/main/resources/assets/bettercrafter/icon.png)
+![Crafter block](pack_icons/pack_icon.png)
 
 [![Static Badge](https://img.shields.io/badge/Version-1.0.0--1.21.3-green)](CHANGELOG.md)
 
