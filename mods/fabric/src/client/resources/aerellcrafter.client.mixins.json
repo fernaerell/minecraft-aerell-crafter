@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.aerelldev.bettercrafter.mixin.client",
+	"package": "dev.fernaerell.aerellcrafter.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [],
 	"injectors": {

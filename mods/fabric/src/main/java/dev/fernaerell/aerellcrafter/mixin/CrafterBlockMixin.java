@@ -1,4 +1,4 @@
-package net.aerelldev.bettercrafter.mixin;
+package dev.fernaerell.aerellcrafter.mixin;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

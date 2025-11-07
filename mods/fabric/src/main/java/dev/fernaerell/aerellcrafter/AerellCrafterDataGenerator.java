@@ -1,9 +1,9 @@
-package net.aerelldev.bettercrafter;
+package dev.fernaerell.aerellcrafter;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class BetterCrafterDataGenerator implements DataGeneratorEntrypoint {
+public class AerellCrafterDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

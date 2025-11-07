@@ -1,39 +1,39 @@
 {
 	"schemaVersion": 1,
-	"id": "bettercrafter",
+	"id": "aerellcrafter",
 	"version": "${version}",
-	"name": "BetterCrafter",
+	"name": "Aerell Crafter",
 	"description": "This mod will improve the crafter block.",
 	"authors": [
-		"Aerelldev"
+		"Fern Aerell"
 	],
 	"contact": {
-		"youtube": "https://www.youtube.com/@aerelldev"
+		"youtube": "https://www.youtube.com/@aerelltech"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/bettercrafter/icon.png",
+	"license": "MIT",
+	"icon": "assets/aerellcrafter/pack_icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.aerelldev.bettercrafter.BetterCrafter"
+          "dev.fernaerell.aerellcrafter.AerellCrafter"
 		],
 		"client": [
-			"net.aerelldev.bettercrafter.BetterCrafterClient"
+          "dev.fernaerell.aerellcrafter.AerellCrafterClient"
 		],
 		"fabric-datagen": [
-			"net.aerelldev.bettercrafter.BetterCrafterDataGenerator"
+          "dev.fernaerell.aerellcrafter.AerellCrafterDataGenerator"
 		]
 	},
 	"mixins": [
-		"bettercrafter.mixins.json",
+      "aerellcrafter.mixins.json",
 		{
-			"config": "bettercrafter.client.mixins.json",
+			"config": "aerellcrafter.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.7",
-		"minecraft": "~1.21.3",
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
