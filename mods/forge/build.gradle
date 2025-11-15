@@ -73,7 +73,7 @@ minecraft {
             // Recommended for development - enables more descriptive errors at the cost of slower startup and registration.
             property 'eventbus.api.strictRuntimeChecks', 'true'
 
-            arg "-mixin.config=mixins.${mod_id}.json"
+            arg "-mixin.config=${mod_id}.mixins.json"
         }
 
         client {
@@ -170,8 +170,8 @@ dependencies {
 
 mixin {
     // MixinGradle Settings
-    add sourceSets.main, "mixins.${mod_id}.refmap.json"
-    config "mixins.${mod_id}.json"
+    add sourceSets.main, "${mod_id}.mixins.refmap.json"
+    config "${mod_id}.mixins.json"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -204,7 +204,7 @@ tasks.named('jar', Jar) {
                 'Implementation-Version'  : project.jar.archiveVersion,
                 'Implementation-Vendor'   : mod_authors
         ])
-        attributes['MixinConfigs'] = "mixins.${mod_id}.json"
+        attributes['MixinConfigs'] = "${mod_id}.mixins.json"
     }
 }
 

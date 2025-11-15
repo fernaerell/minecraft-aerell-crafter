@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "dev.fernaerell.aerellcrafter.mixin",
-  "refmap": "mixins.aerellcrafter.refmap.json",
+  "refmap": "aerellcrafter.mixins.refmap.json",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "CrafterBlockMixin"
